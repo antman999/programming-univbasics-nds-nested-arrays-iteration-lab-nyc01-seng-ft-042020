@@ -25,11 +25,11 @@ array = 0
 counter = 0
 
 while counter < src.length do 
-  if src[counter][0] % 2 == 0 & src[counter][1] % 2 == 0 
-    array +=src[counter][0] + src[counter][1]
+  if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0 
+    array += src[counter][0] + src[counter][1]
   end
   counter +=1
 end
-total
+array
 end
 
