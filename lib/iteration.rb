@@ -21,12 +21,6 @@ end
 
 
 def total_even_pairs(src)
-numbers = (src[counter].sum)
-counter = 0
 
-while counter < src.length do
-  src[counter][0] % 2 = 0 & src[counter][1] % 2 == 0
-    counter +=1
-end
 
 end
