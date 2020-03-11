@@ -21,11 +21,15 @@ end
 
 
 def total_even_pairs(src)
-array = []
-counter = src % 2
-while counter < src.length do
-  if counter == 0
-    counter +=1
+array = 0
+counter = 0
+
+while counter < src.length do 
+  if src[counter][0] % 2 == 0 && src[counter][1] % 2 == 0 
+    array +=src[counter][0] + src[counter][1]
+  end
+  counter +=1
 end
-counter
+total
 end
+
